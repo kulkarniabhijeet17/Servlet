@@ -1,0 +1,6 @@
+Develop a Web application that has an index.jsp page, which submits a request to a Servlet. A filter should be developed to set an attribute in the request to that Servlet. The servlet after receiving the request, should print the value of the attribute to the print writer obtained from the response object. The attribute to be set is “hello” and the value to the attribute is “Hello World”. The Final JSP page should print “Hello World”.
+
+Deploy application on server.
+Start server.
+Open a browser and type, http://localhost:8080/<project-name>
+Hit the submit button, which results in another JSP. This JSP should have printed “HelloWorld”.
