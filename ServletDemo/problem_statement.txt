@@ -1,0 +1,5 @@
+Develop a Web application that has a first.jsp page. It calls a Servlet, which sets a session attribute and a cookie to the response. It forwards the request to second.jsp page. This JSP page displays the session attribute and the cookie object. The session attribute to be set is, “User’s Session” in the name of “name”. The cookie to be added is “Jennifer” in the name of “user”. The second.jsp page should display the session attribute and the cookie object.
+
+Deploy application on server.
+Start the server
+Open a browser and type- http://localhost:8080/ServletDemo/first.jsp
